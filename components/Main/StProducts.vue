@@ -5,19 +5,37 @@
     <section class="products" id="products">
         <div class="products__container">
             <div class="products__position" data-aos="zoom-in-right" data-aos-delay="500">
-                <img class="products__img" src="/Main/brick.webp" alt="">
+                <img class="products__img" src="/Main/stroyMaterial.webp" alt="">
                 <div class="products__block">
-                    <h3 class="products__title">Кирпич: прочность и долговечность</h3>
-                    <p class="products__text">Кирпич — один из самых популярных и прочных строительных материалов. Он обеспечивает отличную тепло- и звукоизоляцию, устойчив к внешним воздействиям и долговечен в эксплуатации.</p>
+                    <h3 class="products__title">Стройматериалы</h3>
+                    <p class="products__text">Большой выбор стройматериалов для строительства и ремонта: от фундамента до отделки. Качество, надежность и доставка по выгодным ценам для вашего удобства и комфорта.</p>
                     <a class="products__btn" href="tel:+79950684351">Оформить предзаказ</a>
                 </div>
             </div>
 
             <div class="products__position products__position_reverse" data-aos="zoom-in-left" data-aos-delay="500">
-                <img class="products__img" src="/Main/board.webp" alt="">
+                <img class="products__img" src="/Main/glass.webp" alt="">
                 <div class="products__block">
-                    <h3 class="products__title">Термодеревянные доски</h3>
-                    <p class="products__text">Термодеревянные доски проходят термическую обработку, что делает их устойчивыми к влаге, гниению и насекомым, при этом сохраняется естественная текстура дерева и его привлекательность.</p>
+                    <h3 class="products__title">Оргстекло</h3>
+                    <p class="products__text">Продажа оргстекла различных типов и размеров для любых нужд: от оформления до строительства. Прочный, легкий и долговечный материал для создания прозрачных конструкций, окон, перегородок и декоративных элементов.</p>
+                    <a class="products__btn" href="tel:+79950684351">Забронировать товар</a>
+                </div>
+            </div>
+
+            <div class="products__position" data-aos="zoom-in-right" data-aos-delay="500">
+                <img class="products__img" src="/Main/panel.webp" alt="">
+                <div class="products__block">
+                    <h3 class="products__title">Композитные панели</h3>
+                    <p class="products__text">Продажа композитных панелей для внутренней и внешней отделки. Легкие, прочные и устойчивые к воздействию внешней среды материалы для создания современных фасадов, стен и декоративных элементов.</p>
+                    <a class="products__btn" href="tel:+79950684351">Оформить предзаказ</a>
+                </div>
+            </div>
+
+            <div class="products__position products__position_reverse" data-aos="zoom-in-left" data-aos-delay="500">
+                <img class="products__img" src="/Main/plastic.webp" alt="">
+                <div class="products__block">
+                    <h3 class="products__title">Пвх пластик</h3>
+                    <p class="products__text">Продажа ПВХ пластика для различных строительных и отделочных работ. Устойчивый к влаге, долговечный и легко обрабатываемый материал для окон, дверей, труб и декоративных элементов.</p>
                     <a class="products__btn" href="tel:+79950684351">Забронировать товар</a>
                 </div>
             </div>
@@ -70,6 +88,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 20px;
     }
 
     &__title {

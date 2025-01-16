@@ -12,7 +12,7 @@
                 <p class="footer__text footer__app" @click="scrollToAnchor('main')">Главная</p>
                 <p class="footer__text footer__app" @click="scrollToAnchor('products')">Продукция</p>
                 <p class="footer__text footer__app" @click="scrollToAnchor('about')">О нас</p>
-                <p class="footer__text footer__app" @click="scrollToAnchor('gallery')">Галерея</p>
+                <p class="footer__text footer__app" @click="scrollToAnchor('gallery')">Склады</p>
             </div>
             <div class="footer__item">
                 <div class="footer__position">

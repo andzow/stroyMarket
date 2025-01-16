@@ -4,15 +4,15 @@
 <template>
     <section class="gallery" id="gallery">
         <div class="gallery__container">
-            <h3 class="gallery__name" data-aos="zoom-out-up" data-aos-delay="500">Фотогалерея</h3>
-            <p class="gallery__text" data-aos="zoom-out-up" data-aos-delay="500">В нашей фотогалерее вы можете ознакомиться с нашими проектами, реализациями и достижениями. Здесь собраны фотографии, которые демонстрируют широкий спектр строительных материалов, которые мы предлагаем, а также примеры успешных поставок и завершенных объектов.</p>
+            <h3 class="gallery__name" data-aos="zoom-out-up" data-aos-delay="500">Наши склады</h3>
+            <p class="gallery__text" data-aos="zoom-out-up" data-aos-delay="500">В нашей фотогалерее вы можете ознакомиться с изображениями наших складских помещений и инфраструктуры. Здесь представлены фотографии, которые демонстрируют удобство и надежность наших складов, а также примеры успешной организации хранения различных товаров.</p>
             <div class="gallery__grid">
-                <img class="gallery__1" src="/Main/gallery_1.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
-                <img class="gallery__2" src="/Main/gallery_2.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
-                <img class="gallery__3" src="/Main/gallery_3.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
-                <img class="gallery__4" src="/Main/gallery_4.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
-                <img class="gallery__5" src="/Main/gallery_5.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
-                <img class="gallery__6" src="/Main/gallery_6.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__1" src="/Main/gallery_photo_1.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__2" src="/Main/gallery_photo_2.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__3" src="/Main/gallery_photo_3.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__4" src="/Main/gallery_photo_4.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__5" src="/Main/gallery_photo_5.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
+                <img class="gallery__6" src="/Main/gallery_photo_6.webp" alt="" data-aos="zoom-out-up" data-aos-delay="500">
             </div>
         </div>
     </section>
@@ -79,7 +79,7 @@
     }
 
     @media(max-width: 700px) {
-        padding: 30px;
+        padding: 30px 0;
         
         &__grid {
             grid-template-areas:
@@ -90,6 +90,7 @@
             "gallery_5"
             "gallery_6";
             grid-template-columns: repeat(1, 1fr);
+            max-width: 100%;
         }
     }
 }

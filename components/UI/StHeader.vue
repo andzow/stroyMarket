@@ -33,7 +33,7 @@ function scrollToAnchor(anchorMain) {
           <li @click="scrollToAnchor('main')" class="header__item">Главная</li>
           <li @click="scrollToAnchor('products')" class="header__item">Продукция</li>
           <li @click="scrollToAnchor('about')" class="header__item">О нас</li>
-          <li @click="scrollToAnchor('gallery')" class="header__item">Галерея</li>
+          <li @click="scrollToAnchor('gallery')" class="header__item">Склады</li>
         </ul>
       </nav>
     </div>
