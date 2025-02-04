@@ -27,7 +27,7 @@
         </div>
         <div class="footer__other">
             <p class="footer__private">© {{ year }} СтройМаркет. Все права защищены.</p>
-            <a href="https://wave-studio.site" target="_blank" class="footer__private footer__site">Разработка сайта - <span class="footer__special">Волна</span></a>
+            <a href="https://wave-studio.vercel.app" target="_blank" class="footer__private footer__site">Разработка сайта - <span class="footer__special">Волна</span></a>
         </div>
     </div>
   </footer>
